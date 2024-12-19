@@ -5,7 +5,7 @@ namespace ConfigOptionsDemo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class ValuesController : ControllerBase 
     {
         private readonly MongoContext mongoContext;
         private readonly SqlContext sqlContext;
